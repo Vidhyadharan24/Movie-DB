@@ -27,3 +27,7 @@ The page by default loads the popular movies from the TMDB database and caches i
 
 MovieDetails
 The page loads the cached movie details when the live data api call fails for any reason, an offline bar is shown when the displyed data is cached data. The page auto reloads the movie details when the device is back online by monitoring the network status.
+
+
+Unit Testing
+Unit testing for the MoviesDataStore and MovieDetailsDataStore (Model) is done via expections, testing MoviesViewModel and MovieDetailsViewModel is achevied via RxTest framework and TestableObserver class. 
