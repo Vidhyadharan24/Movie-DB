@@ -31,3 +31,6 @@ The page loads the cached movie details when the live data api call fails for an
 
 ## Unit Testing
 Unit testing for the MoviesDataStore and MovieDetailsDataStore (Model) is done via expections, testing MoviesViewModel and MovieDetailsViewModel is achevied via RxTest framework and TestableObserver class. 
+
+## Swift UI version [Github](https://github.com/Vidhyadharan24/Movie-DB-SwiftUI)
+The Swift UI version of this app is a work in progress, more feature will be added later on.
